@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: online_tusur.unit_online_tusur.StudentStaticTest
+-------------------------------------------------------------------------------
+Tests run: 10, Failures: 10, Errors: 0, Skipped: 0, Time elapsed: 0.036 s <<< FAILURE! - in online_tusur.unit_online_tusur.StudentStaticTest
+setLastNameNG  Time elapsed: 0.015 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <mashina> but was: <Mashina>
+	at online_tusur.unit_online_tusur.StudentStaticTest.setLastNameNG(StudentStaticTest.java:93)
+
+getFirstNameNG  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <petr> but was: <Petr>
+	at online_tusur.unit_online_tusur.StudentStaticTest.getFirstNameNG(StudentStaticTest.java:33)
+
+getFullNameNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Petrov petr> but was: <Petrov Petr>
+	at online_tusur.unit_online_tusur.StudentStaticTest.getFullNameNG(StudentStaticTest.java:137)
+
+setFirstNameNG2  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Masha Angella> but was: <Masha angella>
+	at online_tusur.unit_online_tusur.StudentStaticTest.setFirstNameNG2(StudentStaticTest.java:61)
+
+maxAgeNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <50> but was: <18>
+	at online_tusur.unit_online_tusur.StudentStaticTest.maxAgeNG(StudentStaticTest.java:184)
+
+setFirstNameNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <masha> but was: <Masha>
+	at online_tusur.unit_online_tusur.StudentStaticTest.setFirstNameNG(StudentStaticTest.java:51)
+
+setAgeNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <10> but was: <18>
+	at online_tusur.unit_online_tusur.StudentStaticTest.setAgeNG(StudentStaticTest.java:129)
+
+getLastNameNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <petrov> but was: <Petrov>
+	at online_tusur.unit_online_tusur.StudentStaticTest.getLastNameNG(StudentStaticTest.java:76)
+
+avgAgeNG  Time elapsed: 0.001 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <28> but was: <18>
+	at online_tusur.unit_online_tusur.StudentStaticTest.avgAgeNG(StudentStaticTest.java:160)
+
+getAgeNG  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <52> but was: <18>
+	at online_tusur.unit_online_tusur.StudentStaticTest.getAgeNG(StudentStaticTest.java:109)
+

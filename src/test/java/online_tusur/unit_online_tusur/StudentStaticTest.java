@@ -7,7 +7,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class StudentTest {
+class StudentStaticTest {
 
     public static Student[] testArr = new Student[3];
 
@@ -177,7 +177,7 @@ class StudentTest {
     }
 
     @Test
-    @Tag("positive")
+    @Tag("negative")
     void maxAgeNG() {
         int expect = 50;
         int actual = Student.maxAge(testArr);
